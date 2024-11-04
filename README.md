@@ -1,1 +1,111 @@
 # Tunepad--Dongfanghong
+Piano:
+from tunepad.chords import *
+
+playNote([67, 64]) 
+playNote([67, 64], beats=0.5)
+playNote([69], beats=0.5)
+playNote([62, 59])
+rest(beats=1)
+
+playNote([60, 57])
+playNote([60, 57], beats=0.5)
+playNote([57], beats=0.5)  
+playNote([62, 59]) 
+rest(beats=1)
+
+playNote([67, 64]) 
+playNote([67, 64]) 
+playNote([69, 66], beats=0.5) 
+playNote([72], beats=0.5) 
+playNote([69, 66], beats=0.5)  
+playNote([67, 64], beats=0.5)  
+playNote([60, 57], beats=1)    
+playNote([60, 57], beats=0.5)
+playNote([57, 53], beats=0.5)  
+playNote([62], beats=1)    
+rest(beats=1)
+
+playNote(67)
+playNote(62)
+playNote(60)
+playNote(59, beats = 0.5) 
+playNote(57, beats = 0.5)
+playNote([55, 48], beats = 1)
+playNote([67, 60], beats = 1)
+playNote([62, 55], beats = 1)
+
+playNote([64, 57], beats = 0.5)
+playNote([62, 55], beats = 0.5)
+playNote([60, 53])
+playNote(57)
+playNote(62, beats = 0.5)
+playNote(64, beats = 0.5)
+playNote(62, beats = 0.5)
+playNote(60, beats = 0.5)
+
+playNote([62, 55], beats = 0.5)
+playNote([60, 53], beats = 0.5)
+playNote([59, 52], beats = 0.5)
+playNote([57, 50], beats = 0.5)
+playNote([55, 48], beats = 1)
+rest(beats = 1)
+
+Guitar:
+from tunepad.chords import *
+
+playNote([67, 64, 60])               
+playNote([67], beats=0.5)           
+playNote([64, 60], beats=0.5)         
+playNote([62, 59, 57], beats=1)       
+rest(beats=1)
+
+playNote([60, 57, 53])                
+playNote(57, beats=0.5)               
+playNote(60, beats=0.5)              
+playNote([62, 59], beats=1)        
+rest(beats=1)
+
+playNote([67, 64], beats=1)        
+playNote([67, 64], beats=1)
+playNote([69, 66], beats=0.5)      
+playNote(72, beats=0.5)              
+playNote([69, 66], beats=0.5)       
+playNote(67, beats=0.5)              
+playNote([60, 57, 53], beats=1)     
+playNote(57, beats=0.5)              
+playNote(60, beats=0.5)             
+rest(beats=2.1)
+
+playNote(67)                     
+playNote(62)            
+playNote(60)              
+playNote(59, beats=0.5)               
+playNote(57, beats=0.5)              
+playNote([55, 48], beats=1)          
+playNote([67, 60], beats=1)      
+playNote([62, 55], beats=0.5)       
+rest(beats=0.5)
+
+playNote([64, 57], beats=0.5)         
+playNote([62, 55], beats=0.5)       
+playNote(60)                         
+playNote(57)                  
+
+playNote(62, beats=0.5)              
+playNote(64, beats=0.5)             
+playNote(62, beats=0.5)               
+playNote(60, beats=0.5)              
+
+playNote([62, 55], beats=0.5)        
+playNote([60, 53], beats=0.5)        
+playNote([59, 52], beats=0.5)         
+playNote([57, 50], beats=0.5)       
+playNote([55, 48], beats=1)           
+
+Drum
+playNote(0)
+playNote(2)
+playNote(0,beats = 0.5)
+playNote(0,beats = 0.5)
+playNote(2)
